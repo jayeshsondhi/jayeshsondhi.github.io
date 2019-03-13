@@ -34,7 +34,7 @@
          <!-- START OF: mailchimp form =====-->
          <!-- If you need help with setting up the MailChimp form you can check the handy guides: https://unicornplatform.com/blog/category/guides-%F0%9F%8D%93/-->
          <!-- If you need an assistance of a tech guy, simply ask in the chat on website or join Unicorn Platform Slack channel.-->
-         <form class="form js-subscribe-mailchimp-form" action="https://test.us20.list-manage.com/subscribe/post?u=8fbb46c489878a7c736528246&amp;id=1c7a293e66" method="post">
+          <form class="form js-subscribe-mailchimp-form" action="https://faf-app.us20.list-manage.com/subscribe/post?u=11861f88da7948780e90fe154&amp;id=ccb5e6002d" method="post">
            <div class="form__inputs">
              <div class="form__input">
             <!--  <label for ="Email"> Email Address <span class="asterisk"> * </span> </label>-->
@@ -46,7 +46,9 @@
                    <!-- Jay Update 10/03/19- Creating dropdown list -->
                 <!--  <br> <label for ="MMERGE7"> Select your occupation </label>
                   <br>-->
+                    <label for="occupation">Occupation</label><span style="color: red !important; display: inline; float: none;">*</span> <br>
                    <select name="MMERGE7" style=" color: grey">
+                     <label for="country">Occupation</label><span style="color: red !important; display: inline; float: none;">*</span>
                        <option value="">Select Occupation</option>
                       <option value="Student (University)">Student (University)</option>
                       <option value="Student (High School)">Student (High School)</option>
@@ -54,14 +56,12 @@
                       <option value="Academic">Academic</option>
                       <option value="Investor">Investor</option>
                       <option value="Other">Other</option>
-                    </select>
-
-               <br> <br>
+                    </select> <br> <br>
                     <label for="country">Country of Residence</label><span style="color: red !important; display: inline; float: none;">*</span>
-                                <select id="country" name="country" class="form-control">
-                                    <option value="">Select Country of Residence</option>
-                                    <option value="Afghanistan">Afghanistan</option>
-                                    <option value="Åland Islands">Åland Islands</option>
+                                <select id="country" name="MMERGE8" class="form-control">
+                                    <option value="MMERGE8">Select Country of Residence</option>
+                                    <option value="MMERGE8">Afghanistan</option>
+                                    <option value="Location">Åland Islands</option>
                                     <option value="Albania">Albania</option>
                                     <option value="Algeria">Algeria</option>
                                     <option value="American Samoa">American Samoa</option>
@@ -305,7 +305,6 @@
                                     <option value="Zambia">Zambia</option>
                                     <option value="Zimbabwe">Zimbabwe</option>
                                 </select>
-
 
                <div class="form__messages">
                  <div class="message message--engaging js-message js-engaging-message" data-index="email-form-397">
